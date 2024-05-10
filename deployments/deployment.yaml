@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Login-Signup-Form
+  name: login-signup-form
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: Login-Signup-Form
+      app: login-signup-form
   template:
     metadata:
       labels:
-        app: Login-Signup-Form
+        app: login-signup-form
     spec:
       containers:
         - name: Login-Signup-Form-container

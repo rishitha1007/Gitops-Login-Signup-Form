@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: Login-Signup-Form
+  name: login-signup-form
 spec:
   selector:
-    app: Login-Signup-Form
+    app: login-signup-form
   ports:
     - protocol: TCP
       port: 80
