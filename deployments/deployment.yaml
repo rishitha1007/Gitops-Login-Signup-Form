@@ -13,7 +13,7 @@ spec:
         app: login-signup-form
     spec:
       containers:
-        - name: Login-Signup-Form-container
+        - name: login-signup-form-container
           image: 'rishithamarri/login-signup-form:'
           ports:
             - containerPort: 80
