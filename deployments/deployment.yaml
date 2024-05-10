@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Login-Signup-Form
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: Login-Signup-Form
+  template:
+    metadata:
+      labels:
+        app: Login-Signup-Form
+    spec:
+      containers:
+        - name: Login-Signup-Form-container
+          image: nginx:latest
+          ports:
+            - containerPort: 80
