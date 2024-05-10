@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: Login-Signup-Form-container
-          image: nginx:latest
+          image: 'rishithamarri/login-signup-form:'
           ports:
             - containerPort: 80
